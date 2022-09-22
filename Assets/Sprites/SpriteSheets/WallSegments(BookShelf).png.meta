@@ -122,9 +122,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 800
-        width: 400
-        height: 400
+        y: 400
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ace6e1ccca0e841f68c3c517cdc0f42d
-      internalID: -797561972
+      spriteID: c806ee47e6a5e4514ab1832d8d39b248
+      internalID: -1713638066
       vertices: []
       indices: 
       edges: []
@@ -142,10 +142,10 @@ TextureImporter:
       name: WallSegments(BookShelf)_1
       rect:
         serializedVersion: 2
-        x: 400
-        y: 800
-        width: 400
-        height: 400
+        x: 200
+        y: 400
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ca2c4fcffe3440aa4f7241d2121755
-      internalID: -1488338778
+      spriteID: 43de2c969e4e7412ba0afd4fecaf2af9
+      internalID: -1846090220
       vertices: []
       indices: 
       edges: []
@@ -164,9 +164,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 400
-        width: 400
-        height: 400
+        y: 200
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0474f124f997645bbaa186141f541af6
-      internalID: -1058384407
+      spriteID: e08a7ba65c1e04a9793c34b9808d51f5
+      internalID: 537533128
       vertices: []
       indices: 
       edges: []
@@ -184,10 +184,10 @@ TextureImporter:
       name: WallSegments(BookShelf)_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 400
-        width: 400
-        height: 400
+        x: 200
+        y: 200
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97683ed18a47e40479ec9f31fa02a3af
-      internalID: -1952723703
+      spriteID: 62207c5c3665b474bb166a346cf3954d
+      internalID: 929567532
       vertices: []
       indices: 
       edges: []
@@ -207,8 +207,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 400
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c898c32e754f34e5b93a6a0e06bc072e
-      internalID: -2042068316
+      spriteID: a6447a44d92834beeb4e632b619f5909
+      internalID: -377627649
       vertices: []
       indices: 
       edges: []
@@ -233,11 +233,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WallSegments(BookShelf)_2: -1058384407
-      WallSegments(BookShelf)_1: -1488338778
-      WallSegments(BookShelf)_0: -797561972
-      WallSegments(BookShelf)_3: -1952723703
-      WallSegments(BookShelf)_4: -2042068316
+      WallSegments(BookShelf)_2: 537533128
+      WallSegments(BookShelf)_1: -1846090220
+      WallSegments(BookShelf)_0: -1713638066
+      WallSegments(BookShelf)_3: 929567532
+      WallSegments(BookShelf)_4: -377627649
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

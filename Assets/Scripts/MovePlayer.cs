@@ -14,14 +14,17 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private Vector2[] endPositions;
     private Vector2 startPosition;
     private Vector2 endPosition;
-    private int i = 0;
+    private int i = 1;
+    private int animationNumber = 1;
     private float percentageComplete;
+    private Animator playerAnimatorController;
 
     // Start is called before the first frame update
     void Start()
     {
         startPosition = transform.position;
         endPosition = endPositions[1];
+        playerAnimatorController = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -29,16 +32,23 @@ public class MovePlayer : MonoBehaviour
     {
         elapsedTime += Time.deltaTime;
         percentageComplete = elapsedTime / desiredDuration;
+        
 
         transform.position = Vector2.Lerp(startPosition, endPosition, percentageComplete);
-
-        if (percentageComplete >= 1f)
+        if (percentageComplete > 0.99f)
         {
             i = (i + 1) % endPositions.Length;
-            elapsedTime = 0;
-            percentageComplete = 0;
+            playerAnimatorController.SetInteger("walkCycle", animationNumber);
+            animationNumber++;
+            if (animationNumber > 3)
+            {
+                animationNumber = 0;
+            }
+            Debug.Log(animationNumber);
             startPosition = endPosition;
             endPosition = endPositions[i];
+            elapsedTime = 0;
+            percentageComplete = 0;
         }
 
        

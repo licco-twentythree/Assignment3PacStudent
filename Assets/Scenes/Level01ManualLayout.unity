@@ -4391,11 +4391,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8476192423952095840, guid: bd53cf0f3e025416083e975886db4482, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.42
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 8476192423952095840, guid: bd53cf0f3e025416083e975886db4482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.65
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: 8476192423952095840, guid: bd53cf0f3e025416083e975886db4482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4433,6 +4433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PacStudent(Show off all animations)
       objectReference: {fileID: 0}
+    - target: {fileID: 8476192424217755894, guid: bd53cf0f3e025416083e975886db4482, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7b039652222bc463cbd3c51787c9a991, type: 2}
     m_RemovedComponents:
     - {fileID: 8476192423952095854, guid: bd53cf0f3e025416083e975886db4482, type: 3}
     m_AddedGameObjects: []

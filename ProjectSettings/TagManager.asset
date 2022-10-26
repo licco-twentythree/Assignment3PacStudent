@@ -11,7 +11,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Effects
   - 
   - 
   - 
@@ -43,4 +43,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1501948041
+    locked: 0
+  - name: Effects
+    uniqueID: 1883749099
     locked: 0

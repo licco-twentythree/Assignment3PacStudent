@@ -30,7 +30,11 @@ public class MenuController : MonoBehaviour
         float t = (Mathf.Sin(Time.time - startTime) * speed);
         titleText.color = Color.Lerp(startColor, endColor, t);
         
-         
+    }
+
+    public void StartLevelOne()
+    {
+        SceneManager.LoadScene(1);
     }
 
 }
